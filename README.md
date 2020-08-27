@@ -6,7 +6,7 @@ Managed by Hector Thøgersen
 
 If you find any issues or would like to make suggestions please open an issue, thanks  
 
-**How to get started
+**How to get started**
 
 To get started you can either: 
 1. Download the source code as a .zip archive.
