@@ -1,0 +1,41 @@
+%Defines document class
+\documentclass{article}
+
+%Draws in settings from the data files
+\input{data/preamble}
+\input{data/macros}
+\input{data/style}
+
+\addbibresource{Bibliography/bibliography.bib} %Imports bibliography file
+
+
+%The metadata title, names and dates of the project
+\title{P2 Project Report}
+\author{}
+\author{}
+\author{}
+\author{}
+
+\date{}
+
+%This is where the fun begins :)
+\begin{document}
+
+\input{Body/titlepage}
+\input{Body/Page0}
+
+\tableofcontents
+\setcounter{page}{1}
+\pagebreak
+
+\input{Body/1introduction}
+\input{Body/2analysis}
+\pagebreak
+
+\printbibliography
+
+\pagebreak
+
+\input{Appendix/appendix}
+
+\end{document}

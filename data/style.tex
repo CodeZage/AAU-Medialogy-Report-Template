@@ -1,0 +1,24 @@
+%Defines the margins and layouts of the document 
+\geometry{a4paper, textwidth = 170mm, top = 25mm, bottom = 25mm, headsep = 5mm, footskip = 9mm}
+
+%Defines the hyperref color for links in the document. Delete if you don't like link colors
+\hypersetup{colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue, 
+}
+
+%Defines background color for code displays
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Defines style for all minted code 
+\usemintedstyle{emacs}
+
+%Defines style and content of the header and footer of the document 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Project Report - Group ???}
+\fancyhead[R]{Medialogy - Aalborg University}
+\fancyfoot[R]{\thepage}
+

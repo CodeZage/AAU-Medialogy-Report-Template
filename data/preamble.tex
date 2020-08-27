@@ -1,0 +1,50 @@
+%Defines Unicode characters according to UTF8 standard (basically allows you to writ any non English ASCII character)
+\usepackage[utf8]{inputenc}
+
+%Adds 8-bit font encoding to the document and adds the charter font to be used throughout 
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+
+%Bibliography handling (Read this if you need help: https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX)
+\usepackage[english]{babel}
+\usepackage[backend = biber, style = science, citestyle = nature]{biblatex} %Change style here. Tho i prefer this method of citation ;)
+
+%Allows for determining margins of the document
+\usepackage{geometry}
+
+%Packages for assisting in displaying mathematics
+\usepackage{amsmath,amsthm,amssymb}
+
+%Package for creating "fancy" headers and footers
+\usepackage{fancyhdr}
+
+
+%Allows for the document to import images 
+\usepackage{graphicx}
+
+%Package for forcing placement of Objects inside the current section 
+\usepackage{placeins}
+
+%Allows for wrapping text around figures
+\usepackage{wrapfig}
+
+%Package for options on captions
+\usepackage{caption}
+
+%Package for displaying and highlighting code
+\usepackage{minted}
+
+%Allows for changing certain attributes related to color
+\usepackage{xcolor}
+
+%Allows you to reference the final page
+\usepackage{lastpage}
+
+% Add bibliography and index to the table of contents. The [nottoc] skips the table of contents so it doesn't refer to itself
+\usepackage[nottoc]{tocbibind}
+
+%Quote handling 
+\usepackage{csquotes}
+
+%Allows for making hyperlinks in the text !(HAS TO BE LAST IMPORT)!
+\usepackage{hyperref}

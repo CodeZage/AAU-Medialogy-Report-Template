@@ -1,0 +1,42 @@
+\section{Analysis}
+
+\subsection{Figures!!}
+\begin{figure}[H]
+\begin{minted}
+[
+    frame=lines,
+    framesep=2mm,
+    baselinestretch=1.2,
+    fontsize=\footnotesize,
+    linenos
+]
+{java}
+void testInput(String userInput) //thumbs up for recursion 
+    {
+        if(userInput == null){
+            System.exit(0);
+        }
+
+        if(userInput.equals("") | !isNumber(userInput)){
+            JOptionPane.showMessageDialog(this.input, "Please enter a number");
+            testInput(getInputFromUser());
+        }
+
+        if(Integer.parseInt(userInput) < 0 |  Integer.parseInt(userInput) > randomNumbers.length){
+            JOptionPane.showMessageDialog(this.input, outOfBounds);
+            testInput(getInputFromUser());
+        }
+
+        JOptionPane.showMessageDialog(this.input, "Number at index position: " + userInput + " is " + 
+        randomNumbers[Integer.parseInt(userInput)]);
+        testInput(getInputFromUser());
+    }
+\end{minted}
+    \centering
+    \caption{MonoBehaviour.OnMouseDown() built in function to detect mouse clicks. Checking to make sure that the object is not behind a UI element, and opens the menu to delete the object.}
+    \label{fig:MouseDown}
+\end{figure}
+
+
+Citation needed \cite{degrauwe1987idac}
+
