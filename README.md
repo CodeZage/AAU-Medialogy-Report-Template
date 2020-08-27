@@ -1,5 +1,6 @@
 # Medialogy Report Template 🦾
 Template For LateX Medialogy Report for use with Overleaf or any other LaTeX engine. 
+
 Managed by Hector Thøgersen 
 📧 Mail: hthage19@student.aau.dk
 
