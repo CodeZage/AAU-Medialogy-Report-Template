@@ -1,9 +1,8 @@
 %Defines Unicode characters according to UTF8 standard (basically allows you to writ any non English ASCII character)
 \usepackage[utf8]{inputenc}
 
-%Adds 8-bit font encoding to the document and adds the charter font to be used throughout 
-\usepackage[T1]{fontenc}
-\usepackage{charter}
+%Adds 8-bit font encoding to the document and adds the charter font to be used throughout not necessary when using utf based engines 
+\usepackage{fontspec}
 
 %Bibliography handling (Read this if you need help: https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX)
 \usepackage[english]{babel}
@@ -20,7 +19,6 @@
 
 %Package for creating "fancy" headers and footers
 \usepackage{fancyhdr}
-
 
 %Allows for the document to import images 
 \usepackage{graphicx}
@@ -39,6 +37,12 @@
 
 %Allows for changing certain attributes related to color
 \usepackage{xcolor}
+
+%Allows the user to create a background image for the page, is currently only used on the from page
+\usepackage{background}
+
+%Allows you to make a box around the text of a document
+\usepackage{tcolorbox}
 
 %Allows you to reference the final page
 \usepackage{lastpage}
